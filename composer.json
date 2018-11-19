@@ -1,0 +1,35 @@
+{
+  "name": "nitsan/ns-facebook-comment",
+  "type": "typo3-cms-extension",
+  "description": "This Extension help you to add and share comment as post with Facebook",
+  "homepage": "https://extensions.typo3.org/extension/ns_facebook_comment/",
+  "license": "GPL-2.0+",
+  "keywords": [
+    "TYPO3 CMS",
+    "facebook",
+    "App ID",
+    "NITSAN",
+    "comments",
+    "ns_facebook_comment"
+  ],
+  "support": {
+    "issues": "https://github.com/nitsan-technologies/ns_facebook_comment/issues"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nitsan\\NsFacebookComment\\": "Classes/"
+    }
+  },
+  "replace": {
+      "ns_facebook_comment": "self.version",
+      "nitsan/ns-facebook-comment": "self.version"
+  },
+  "extra": {
+      "typo3/cms": {
+          "extension-key": "ns_facebook_comment"
+      }
+  }
+}

@@ -1,0 +1,146 @@
+<T3DataStructure>
+<meta>
+	<langDisable>1</langDisable>
+</meta>
+<sheets>
+	<sDEF>
+		<ROOT>
+			<TCEforms>
+				<sheetTitle>Settings</sheetTitle>
+			</TCEforms>
+			<type>array</type>
+			<el>
+				<settings.appid>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.facebook-app-id</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <eval>trim,required</eval>
+				        </config>
+					</TCEforms>
+				</settings.appid>
+				<settings.datawidth>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.comment-box-width</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <default>100%</default>
+				            <eval>trim</eval>
+				        </config>
+					</TCEforms>
+				</settings.datawidth>
+				<settings.datanumposts>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.comment-per-page</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <default>5</default>
+				            <eval>trim</eval>
+				        </config>
+					</TCEforms>
+				</settings.datanumposts>				
+				<settings.fbtitle>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.comment-box-lebel</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <eval>trim</eval>
+				        </config>
+					</TCEforms>
+				</settings.fbtitle>
+				<settings.textcolor>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.font-color</label>
+						<config>
+				          	<type>input</type>				          	
+				          	<size>20</size>				            
+				            <default>#210505</default>
+				            <wizards>
+				            	<_PADDING></_PADDING>
+				            	<colorChoice>
+				            		<title>LLL:EXT:examples/Resources/Private/Language/locallang_db.xlf:tx_examples_haiku.colorPick</title>
+				            		<type>colorbox</type>
+				            		<module>
+				            			<name>wizard_colorpicker</name>
+				            		</module>
+				            		<JSopenParams>height=600,width=380,status=0,menubar=0,scrollbars=1</JSopenParams>
+				            	</colorChoice>
+				            </wizards>
+				        </config>
+					</TCEforms>
+				</settings.textcolor>
+				<settings.fontsize>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.font-size</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <default>20</default>
+				            <eval>trim,int</eval>
+				        </config>
+					</TCEforms>
+				</settings.fontsize>
+				<settings.position>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.text-align</label>
+						<config>
+				          	<type>select</type>
+				          	<renderType>selectSingle</renderType>
+							<items>
+								<numIndex index="1">
+									<numIndex index="0">LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.text-align-left</numIndex>
+									<numIndex index="1">Left</numIndex>
+								</numIndex>
+								<numIndex index="2">
+									<numIndex index="0">LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.text-align-center</numIndex>
+									<numIndex index="1">Center</numIndex>
+								</numIndex>
+								<numIndex index="3">
+									<numIndex index="0">LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.text-align-right</numIndex>
+									<numIndex index="1">Right</numIndex>
+								</numIndex>
+							</items>
+				        </config>
+					</TCEforms>
+				</settings.position>
+				<settings.fontfamily>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.font-family</label>
+						<config>
+				          	<type>input</type>
+				            <size>20</size>
+				            <default>sans-serif</default>
+				            <eval>trim</eval>
+				        </config>
+					</TCEforms>
+				</settings.fontfamily>
+				<settings.backgroundcolor>
+					<TCEforms>
+						<label>LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:flexform.bg-color</label>
+						<config>
+				          	<type>input</type>				          	
+				          	<size>20</size>				            
+				            <default>#ffffff</default>
+				            <wizards>
+				            	<_PADDING></_PADDING>
+				            	<colorChoice>
+				            		<title>LLL:EXT:examples/Resources/Private/Language/locallang_db.xlf:tx_examples_haiku.colorPick</title>
+				            		<type>colorbox</type>
+				            		<module>
+				            			<name>wizard_colorpicker</name>
+				            		</module>
+				            		<JSopenParams>height=600,width=380,status=0,menubar=0,scrollbars=1</JSopenParams>
+				            	</colorChoice>
+				            </wizards>
+				        </config>
+					</TCEforms>
+				</settings.backgroundcolor>
+			</el>
+		</ROOT>
+	</sDEF>
+</sheets>
+</T3DataStructure>

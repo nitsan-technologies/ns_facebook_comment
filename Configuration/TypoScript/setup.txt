@@ -1,0 +1,10 @@
+
+plugin.tx_nsfacebookcomment{
+	view {
+		templateRootPaths.0 = {$plugin.tx_NsFacebookComment.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_NsFacebookComment.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_NsFacebookComment.view.layoutRootPath}
+	}
+	persistence {		
+	}
+}

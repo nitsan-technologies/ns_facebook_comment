@@ -1,0 +1,16 @@
+mod.wizards.newContentElement.wizardItems.plugins {
+	elements {
+		NsFacebookComment {
+			icon = ../typo3conf/ext/ns_facebook_comment/Resources/Public/Icons/user_plugin_facebook.svg
+			iconIdentifier = ext-ns-facebookcomment-icon
+			title = LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:be_lable
+			description = LLL:EXT:ns_facebook_comment/Resources/Private/Language/locallang_db.xlf:be_desctiption
+			tt_content_defValues {
+				CType = list
+				list_type = nsfacebookcomment_nsfacebookcomment
+			}
+		}
+	}
+	show = *
+}
+

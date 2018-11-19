@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-05-10T17:38:58Z" product-name="ns_facebook_comment">
+		<header/>
+		<body>
+			<trans-unit id="tx_NsFacebookComment_domain_model_NsFacebookComment">
+				<source>Ns Facebook</source>
+			</trans-unit>
+			<trans-unit id="tx_NsFacebookComment_domain_model_NsFacebookComment.comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="flexform.facebook-app-id">
+				<source>Facebook App ID</source>
+			</trans-unit>
+			<trans-unit id="flexform.comment-box-width">
+				<source>Comment Box width with %</source>
+			</trans-unit>
+			<trans-unit id="flexform.comment-per-page">
+				<source>Number of comments show</source>
+			</trans-unit>
+			<trans-unit id="flexform.comment-box-color">
+				<source>Comment box color scheme</source>
+			</trans-unit>
+			<trans-unit id="flexform.comment-box-lebel">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="flexform.font-color">
+				<source>Title text color</source>
+			</trans-unit>
+			<trans-unit id="flexform.font-size">
+				<source>Title font size</source>
+			</trans-unit>
+			<trans-unit id="flexform.text-align">
+				<source>Title position</source>
+			</trans-unit>
+			<trans-unit id="flexform.text-align-left">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="flexform.text-align-center">
+				<source>Center</source>
+			</trans-unit>
+			<trans-unit id="flexform.text-align-right">
+				<source>Right</source>
+			</trans-unit>
+			<trans-unit id="flexform.font-family">
+				<source>Title font family</source>
+			</trans-unit>
+			<trans-unit id="flexform.bg-color">
+				<source>Background color</source>
+			</trans-unit>			
+			<trans-unit id="be_lable">
+				<source>Ns Facebook Comment</source>
+			</trans-unit>			
+			<trans-unit id="be_desctiption">
+				<source>This extension will help you to give comment with facebook account also you can post it.</source>
+			</trans-unit>			
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,40 @@
+
+<f:layout name="Default" />
+
+<f:section name="main">
+<f:flashMessages />
+
+<!-- Dynnamic css -->
+<style type="text/css">
+  .facebooktitle{
+    color: {settings.textcolor};
+    font-family: {settings.fontfamily};
+    text-align: {settings.position};
+    background-color: {settings.backgroundcolor};   
+  }
+  .facebooktitle h3{
+    font-size: {settings.fontsize}px;
+  }   
+</style>
+
+<!-- Dynamic js -->
+<script type="text/javascript">
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;  
+    js.src = 'https://connect.facebook.net/{lang}/sdk.js#xfbml=1&version=v3.0&appId={settings.appid}&autoLogAppEvents=1';   
+    
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="fb-root"></div>
+<div class="facebooktitle" style="width:{settings.datawidth}">
+    <h3>{settings.fbtitle}</h3>
+    <div class="fb-comments" data-href="{url}" data-width="100%" data-numposts="{settings.datanumposts}" data-colorscheme="light"></div>
+</div>
+
+
+
+</f:section>
