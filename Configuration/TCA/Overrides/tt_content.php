@@ -1,4 +1,4 @@
-<?php 
+<?php
 defined('TYPO3_MODE') or die();
 
 $_EXTKEY = 'ns_facebook_comment';
@@ -7,14 +7,14 @@ $_EXTKEY = 'ns_facebook_comment';
  * Plugin
  */
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-	'Nitsan.' . $_EXTKEY,
-	'NsFacebookComment',
-	'ns_facebook_comment'
+    'Nitsan.' . $_EXTKEY,
+    'NsFacebookComment',
+    'ns_facebook_comment'
 );
 
-$pluginSignature = str_replace('_','',$_EXTKEY) . '_' . 'nsfacebookcomment';
+$pluginSignature = str_replace('_', '', $_EXTKEY) . '_' . 'nsfacebookcomment';
 
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSignature] = 'recursive,select_key,pages';    
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSignature] = 'recursive,select_key,pages';
 
 /* Flexform setting  */
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';

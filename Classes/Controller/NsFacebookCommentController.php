@@ -39,13 +39,13 @@ class NsFacebookCommentController extends \TYPO3\CMS\Extbase\Mvc\Controller\Acti
     public function listAction()
     {
         $this->view->assign('settings', $this->settings);
-        if($GLOBALS['TSFE']->sys_language_isocode){
-           $lan = $GLOBALS['TSFE']->sys_language_isocode;
-        }else{
-           $lan = 'en';
+        if ($GLOBALS['TSFE']->sys_language_isocode) {
+            $lan = $GLOBALS['TSFE']->sys_language_isocode;
+        } else {
+            $lan = 'en';
         }
         $url = \TYPO3\CMS\Core\Utility\GeneralUtility::getIndpEnv('TYPO3_REQUEST_URL');
-        $str = strtolower($lan).'_'.strtoupper($str);
+        $str = strtolower($lan) . '_' . strtoupper($str);
         $this->view->assign('lang', $str);
         $this->view->assign('url', $url);
     }
