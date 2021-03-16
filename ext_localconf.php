@@ -16,7 +16,7 @@ defined('TYPO3_MODE') || die('Access denied.');
 if (version_compare(TYPO3_branch, '7.0', '>')) {
     if (TYPO3_MODE === 'BE') {
         $icons = [
-            'ext-ns-facebookcomment-icon' => 'user_plugin_facebook.svg',
+            'ext-ns-facebookcomment-icon' => 'ns_facebook_comment.svg',
         ];
         $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
         foreach ($icons as $identifier => $path) {
