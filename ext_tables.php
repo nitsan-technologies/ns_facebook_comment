@@ -7,5 +7,5 @@ if (!defined('TYPO3_MODE')) {
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_NsFacebookComment_domain_model_NsFacebookComment');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ns_facebook_comment/Configuration/TSconfig/ContentElementWizard.txt">'
+    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ns_facebook_comment/Configuration/TSconfig/ContentElementWizard.tsconfig">'
 );
