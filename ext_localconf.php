@@ -1,15 +1,20 @@
 <?php
 defined('TYPO3_MODE') || die('Access denied.');
 
+if (version_compare(TYPO3_branch, '10.0', '>=')) {
+    $moduleClass = \Nitsan\NsFacebookComment\Controller\NsFacebookCommentController::class;
+} else {
+    $moduleClass = 'NsFacebookComment';
+}
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     'Nitsan.ns_facebook_comment',
     'NsFacebookComment',
     [
-        'NsFacebookComment' => 'list',
+        $moduleClass => 'list',
     ],
     // non-cacheable actions
     [
-        'NsFacebookComment' => 'list',
+        $moduleClass => 'list',
     ]
 );
 
