@@ -1,7 +1,7 @@
 {
   "name": "nitsan/ns-facebook-comment",
   "type": "typo3-cms-extension",
-  "description": "Grab this extension which will help you to add facebook comment plugin to add and share comments, reply, listing etc. Demo: https://demo.t3terminal.com/t3t-extensions/facebook-comments/ You can download PRO version for more-features & free-support at https://t3terminal.com/typo3-facebook-comment-free/",
+  "description": "Grab this extension which will help you to add facebook comment plugin to add and share comments, reply, listing etc.",
   "homepage": "https://t3terminal.com/typo3-facebook-comment-free/",
   "license": "GPL-2.0+",
   "keywords": [
