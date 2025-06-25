@@ -1,12 +1,12 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Facebook Comment Plugin',
-    'description' => 'Grab this extension which will help you to add facebook comment plugin to add and share comments, reply, listing etc.',
+    'title' => 'Facebook Comments Integration',
+    'description' => 'Easily integrate Facebook Comments on your TYPO3 website. Allow users to comment, reply, and share directly using their Facebook accounts for better engagement.',
     'category' => 'plugin',
-    'author' => 'T3Planet // NITSAN',
-    'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'T3Planet // NITSAN',
+    'author' => 'Team T3Planet',
+    'author_email' => 'info@t3planet.de',
+    'author_company' => 'T3Planet',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
